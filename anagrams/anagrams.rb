@@ -7,6 +7,11 @@
 def first_anagrams?(word,anagram) 
     all_possible_anagrams?(word).include?(anagram)
 end
+def all_anagram(string_in_the_list,target)
+  (0..string_in_the_list-target).each_with_index do |i|
+
+  end
+end
 def all_possible_anagrams?(word)
     # The base case when the length of the word is 1 or 0 return what left of the word
     return [word] if word.length <= 1 
